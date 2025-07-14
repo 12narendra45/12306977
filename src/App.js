@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from 'react';
-import { Log } from './backend/Middleware';
+import { Log } from './Middleware/Middleware';
 function App() {
    const [url, setUrl] = useState('');
   const [shortUrl, setShortUrl] = useState('');
